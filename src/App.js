@@ -55,6 +55,7 @@ const App = () => {
       {/* Harita Alanı */}
       <div className="map-container">
         <Map tours={activeTours} cities={cities} selectedTour={selectedTour} />
+        <p style="{display: none}">Naz Akusta<p/>
       </div>
     </div>
   );
